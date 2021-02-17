@@ -296,7 +296,7 @@ typedef unsigned __int64 FFUInt64;
 #if defined( FFGL_MACOS )
 #include <OpenGL/gl3.h>
 #elif defined( FFGL_LINUX )
-#include <GL/gl.h>
+#include <GLES3/gl32.h>
 #else
 #error define this for your OS
 #endif
